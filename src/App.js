@@ -23,6 +23,7 @@ function App() {
     </section>
   }
   const {company, title,duties,dates} = jobs[value]
+  console.log(jobs);
   return (
     <>
     <section className="section">
@@ -56,7 +57,6 @@ function App() {
               return(
                 <div key={index} className="job-desc">
                   <FaAngleDoubleRight className=''>
-
                   </FaAngleDoubleRight>
                   <p>{duty}</p>
                 </div>
